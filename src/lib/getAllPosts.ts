@@ -1,14 +1,7 @@
 // 投稿されているブログを全て取得する関数
 import { notion } from "./notion/notionClient";
+import { NotionPost } from "@/types/NotionPost";
 
-interface NotionPost {
-  id: string;
-  title: string;
-  date: string;
-  types: string[];
-  files: string[];
-  author: string;
-}
 
 /**
  * Notionテーブル上のすべての投稿を取得する非同期関数。
