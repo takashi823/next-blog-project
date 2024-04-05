@@ -1,0 +1,1 @@
+//  ブログ情報(title、author、createDate、file、ID)を取得
