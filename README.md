@@ -8,3 +8,9 @@
 yarn add -D prettier eslint-config-prettier
 yarn add -D @typescript-eslint/eslint-plugin
 ```
+
+### notion client
+
+```
+yarn add @notionhq/client
+```
