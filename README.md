@@ -14,3 +14,17 @@ yarn add -D @typescript-eslint/eslint-plugin
 ```
 yarn add @notionhq/client
 ```
+
+### react-markdown
+
+```
+yarn add react-markdown
+```
+
+### react-icons
+
+```
+yarn add react-icons
+```
+
+

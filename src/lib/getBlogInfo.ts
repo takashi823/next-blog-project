@@ -1,11 +1,6 @@
 //  ブログ情報(title、author、createDate、file、ID)を取得
 import { notion } from "./notion/notionClient";
-
-interface NotionPostInfo {
-  title: string;
-  date: string;
-  author: string;
-}
+import { NotionPostInfo } from "@/types/NotionPostInfo";
 
 /**
  * 指定されたページIDのブログ情報を取得する非同期関数。
